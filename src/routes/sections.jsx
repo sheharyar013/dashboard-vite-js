@@ -15,7 +15,6 @@ export const Page404 = lazy(() => import("../../src/pages/page-not-found"));
 // export const IndexPage = lazy(() => import("src/pages/app"));
 // export const BlogPage = lazy(() => import("src/pages/blog"));
 // export const UserPage = lazy(() => import("src/pages/user"));
-// export const ProductsPage = lazy(() => import("src/pages/products"));
 
 export default function Router() {
   const routes = useRoutes([
@@ -30,7 +29,6 @@ export default function Router() {
     //   children: [
     //     { element: <IndexPage />, index: true },
     //     { path: "network", element: <UserPage /> },
-    //     { path: "vault", element: <ProductsPage /> },
     //     { path: "admin", element: <BlogPage /> },
     //   ],
     // },
