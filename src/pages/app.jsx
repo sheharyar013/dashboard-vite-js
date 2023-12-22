@@ -1,9 +1,5 @@
 import { Helmet } from "react-helmet-async";
 
-// import { AppView } from "src/sections/overview/view";
-
-// ----------------------------------------------------------------------
-
 export default function AppPage() {
   return (
     <>
@@ -12,7 +8,6 @@ export default function AppPage() {
       </Helmet>
 
       <h2>Dashboard</h2>
-      {/* <AppView /> */}
     </>
   );
 }
